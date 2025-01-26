@@ -14,5 +14,11 @@ public class Input {
         int number = input.nextInt();
 
         System.out.println("You entered "  +  number);
+
+        float myFloat = input.nextFloat();
+
+        double myDouble = input.nextDouble();
+
+        String myString = input.next();
     }
 }
