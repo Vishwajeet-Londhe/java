@@ -13,5 +13,11 @@ public class IterativeDemo {
         for(int i =1; i<=n; i++){
             System.out.println("Hello Akku" + " " + i);
         }
+
+        //15 to 25 numbers
+        int pyari = 25;
+        for(int i=15;i<=pyari;i++){
+            System.out.println("Hi Akku" + " " + i);
+        }
     }
 }
