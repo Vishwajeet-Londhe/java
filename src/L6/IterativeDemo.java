@@ -19,5 +19,11 @@ public class IterativeDemo {
         for(int i=15;i<=pyari;i++){
             System.out.println("Hi Akku" + " " + i);
         }
+
+        //14 to 4
+        int best = 14;
+        for(int i=5; i<=best;i++){
+            System.out.println("akku the besti" + " " + i);
+        }
     }
 }
