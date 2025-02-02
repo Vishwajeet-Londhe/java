@@ -25,5 +25,12 @@ public class IterativeDemo {
         for(int i=5; i<=best;i++){
             System.out.println("akku the besti" + " " + i);
         }
+
+        // 8.6 to 9.2
+        int topper = 100;
+        for(int i = 80; i<=topper; i++){
+            System.out.println("shital the topper" + " " + i);
+        }
+
     }
 }
