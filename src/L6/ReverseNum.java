@@ -7,7 +7,7 @@ public class ReverseNum {
 
         Scanner scn = new Scanner(System.in);
 
-        int n = 1234;
+        int n = scn.nextInt();
         int ans = 0;
 
         while( n > 0){
