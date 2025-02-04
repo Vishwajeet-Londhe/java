@@ -1,9 +1,15 @@
 package L6;
 
+import java.util.Scanner;
+
 public class Prime {
     public static void main(String[] args) {
 
-        int n=7;
+        Scanner scn = new Scanner(System.in);
+
+
+        int n=scn.nextInt();
+
         int div=2;
 
         int flag = 0;
