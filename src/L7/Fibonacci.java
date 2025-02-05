@@ -5,6 +5,10 @@ public class Fibonacci {
 
         int n =5;
 
+        //print till nth fibonnaci numbers = n+1(count in while)
+        //print first n fibonacci numbers = n(count in while)
+        //print the nth fibonacci numbers
+
         int a=0;
         int b=1;
 
