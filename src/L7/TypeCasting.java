@@ -3,6 +3,7 @@ package L7;
 public class TypeCasting {
     public static void main(String[] args) {
 
+        //case1
         byte by = 10;
         short sh = 10;
         int in = 10;
@@ -25,5 +26,15 @@ public class TypeCasting {
         lo=by;
         lo=sh;
         lo=in;
+
+        //case-2
+
+        by=100;
+
+        for (byte b=0; b<=128; b++){
+            System.out.println("hello");
+        }
+
+        //case3
     }
 }
