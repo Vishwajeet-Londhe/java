@@ -49,7 +49,16 @@ public class TypeCasting {
 
         in = (int)f;
 
-        byte b = (byte) 130;
+        byte b = (byte) 383;
         System.out.println(b);
+
+        //Case5
+
+        char ch = 'a';
+
+        in = ch ;
+        System.out.println(in);
+        System.out.println(ch);
+        System.out.println((int)ch);
     }
 }
