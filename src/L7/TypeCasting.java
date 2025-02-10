@@ -60,5 +60,35 @@ public class TypeCasting {
         System.out.println(in);
         System.out.println(ch);
         System.out.println((int)ch);
+
+
+        //Case6
+        ch = 70;
+
+        System.out.println(ch);
+        System.out.println((int)200) ;
+
+        ch = (char)(ch+1);
+        System.out.println(ch);
+
+        //Case7
+
+        ch = 'a' + '1';
+        ch = (char)('a' + ch);
+        System.out.println(ch);
+
+        //case8
+
+        ch = 'a' + 'a';
+        ch = (char)('a' + ch);
+        System.out.println(ch);
+
+        //Case9
+
+        System.out.println(10 + 20 + "Hello" + 10+20);
+        System.out.println(2+' '+5);
+        System.out.println(2+" "+5);
+        System.out.println("Hello" + '\t' + "World");
+        System.out.println(2 + '\t' + 3);
     }
 }
