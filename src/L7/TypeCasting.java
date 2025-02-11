@@ -85,7 +85,7 @@ public class TypeCasting {
 
         //Case9
 
-        System.out.println(10 + 20 + "Hello" + 10+20);
+        System.out.println(10 + 20 + "Hello" + 10 + 20);
         System.out.println(2+' '+5);
         System.out.println(2+" "+5);
         System.out.println("Hello" + '\t' + "World");
