@@ -4,7 +4,7 @@ public class PatternOdd {
     public static void main(String[] args) {
 
         //number must be odd
-        int n = 5;
+        int n = 11;
         int trows = n;
 
         int stars = 1;
@@ -13,7 +13,7 @@ public class PatternOdd {
 
             //work for current
             for(int cst =1 ; cst<=stars; cst++){
-                System.out.print("*");
+                System.out.print(cst);
             }
 
             //pre for next row
