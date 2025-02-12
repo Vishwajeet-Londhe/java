@@ -1,6 +1,6 @@
 package L8;
 
-public class PatternSpaceStar {
+public class PatternPyramid {
     public static void main(String[] args) {
 
         int n = 4;
