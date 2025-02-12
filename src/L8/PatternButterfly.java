@@ -3,7 +3,7 @@ package L8;
 public class PatternButterfly {
     public static void main(String[] args) {
 
-        int n = 7;
+        int n = 55;
         int trows = n;
 
         int stars = 1;
@@ -21,7 +21,12 @@ public class PatternButterfly {
                 System.out.print(" ");
             }
             //star
-            for (int cst=1;cst<=stars;cst++){
+            int sstars=stars;
+            if (row==trows/2+1){
+                sstars=stars-1;
+            }
+
+            for (int cst=1;cst<=sstars;cst++){
                 System.out.print("*");
             }
 
