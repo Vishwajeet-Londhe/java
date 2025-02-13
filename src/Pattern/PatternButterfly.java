@@ -1,4 +1,4 @@
-package L8;
+package Pattern;
 
 public class PatternButterfly {
     public static void main(String[] args) {

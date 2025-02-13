@@ -1,4 +1,4 @@
-package L8;
+package Pattern;
 
 public class PatternPyramid {
     public static void main(String[] args) {

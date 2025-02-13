@@ -1,4 +1,4 @@
-package L8;
+package Pattern;
 
 public class PatternOdd {
     public static void main(String[] args) {
