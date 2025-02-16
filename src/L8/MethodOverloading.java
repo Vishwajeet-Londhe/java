@@ -2,6 +2,12 @@ package L8;
 
 public class MethodOverloading  {
 
+    public static void main(String[] args) {
+        System.out.println(formatNumber(499));
+        System.out.println(formatNumber(89.9933));
+        System.out.println(formatNumber("87"));
+    }
+
     public static String formatNumber(int value){
         return String.format("%d",value);
     }
