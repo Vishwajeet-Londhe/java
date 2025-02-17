@@ -4,7 +4,7 @@ public class MethodOverloading  {
 
     public static void main(String[] args) {
         System.out.println(formatNumber(499));
-        System.out.println(formatNumber(89.9933));
+        System.out.println(formatNumbe(89.9933));
         System.out.println(formatNumber("87"));
     }
 
@@ -12,7 +12,7 @@ public class MethodOverloading  {
         return String.format("%d",value);
     }
 
-    public static String formatNumber(double value){
+    public static String formatNumbe(double value){
         return String.format("%.3f", value);
     }
 
