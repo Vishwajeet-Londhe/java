@@ -62,11 +62,35 @@ public class ArrayDemo {
         System.out.println(arr[i]+","+arr[j]);
         swap(arr[i],arr[j]);
         System.out.println(arr[i]+","+arr[j]);
+
+        System.out.println("-------Case2--------");
+        System.out.println(arr[i]+","+arr[j]);
+        swap(arr,i,j);
+        System.out.println(arr[i]+","+arr[j]);
+
+        System.out.println("--------Case3--------");
+        int[] other = {100,200,300,400,500};
+        System.out.println(arr[0]+","+other[0]);
+        swap(arr,other);
+        System.out.println(arr[0]+","+other[0]);
+    }
+
+    public static void swap(int[] one,int[] two){
+        int [] temp = one;
+        one = two;
+        two = temp;
     }
 
     public static void swap(int one,int two){
         int temp = one;
         one = two;
         two = temp;
+    }
+
+    public static void swap(int [] a,int i,int j){
+        System.out.println(a[i]+","+a[j]);
+        int temp = a[i];
+        a[i]=a[j];
+        a[j]=temp;
     }
 }
