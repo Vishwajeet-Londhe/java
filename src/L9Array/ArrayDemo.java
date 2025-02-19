@@ -30,5 +30,43 @@ public class ArrayDemo {
         System.out.println(arr[3]);
         System.out.println(arr[4]);
         //System.out.println(arr[5]); // error out of size
+
+        //rebundancy code
+        for (int i = 0; i< arr.length;i++){
+            System.out.println(arr[i]);
+        }
+
+        //last to first
+        for (int i = arr.length-1;i>=0;i--){
+            System.out.println(arr[i]);
+        }
+
+        //enhanced for loop
+        System.out.println("----------EF---------");
+
+        for (int val:arr){
+            System.out.println(val);
+        }
+
+        System.out.println("--------case0------");
+        int [] arr1 = arr;
+        arr[3]= 100;
+        System.out.println(arr[3]);
+
+
+
+        int i = 0; //32
+        int j = 2; //24
+
+        System.out.println("------Case1-------");
+        System.out.println(arr[i]+","+arr[j]);
+        swap(arr[i],arr[j]);
+        System.out.println(arr[i]+","+arr[j]);
+    }
+
+    public static void swap(int one,int two){
+        int temp = one;
+        one = two;
+        two = temp;
     }
 }
