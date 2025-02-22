@@ -2,7 +2,7 @@ package L9Array;
 
 public class MinElement {
     public static void main(String[] args) {
-        int [] arr = {10,20,30,40,50};
+        int [] arr = {15,10,20,30,5,40,50};
         minElement(arr);
 
     }
