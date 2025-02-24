@@ -1,17 +1,40 @@
 package L9Array;
 
 public class RotateArray {
+
     public static void main(String[] args) {
-//        k=-2   3 4 1 2
-//        k=-1   2 3 4 1
-//        k=0    1 2 3 4
-//        k=1    2 3 4 1
-//        k=2    3 4 1 2
-//        k=3    4 1 2 3
-//        k=4    1 2 3 4
-//        k=5    4 1 2 3
-//        k=6    3 4 1 2
-//        k=7    2 3 4 1
-//        k=8    1 2 3 4
+        int[] arr = {1, 2, 3, 4, 5, 6, 7};
+        int k = 4;
+        rotate(arr, k);
+        System.out.print("Rotated Array: ");
+        printArray(arr);
+    }
+
+    // Function to rotate the array to the right by k steps
+    public static void rotate(int[] arr, int k) {
+        int n = arr.length;
+        k = k % n; // To handle cases where k > n
+        reverse(arr, 0, n - 1);   // Reverse the entire array
+        reverse(arr, 0, k - 1);   // Reverse first k elements
+        reverse(arr, k, n - 1);   // Reverse remaining elements
+    }
+
+    // Function to reverse part of the array
+    private static void reverse(int[] arr, int start, int end) {
+        while (start < end) {
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
+    }
+
+    // Function to print the array without using Arrays.toString()
+    private static void printArray(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
     }
 }
