@@ -11,6 +11,7 @@ public class ArrayListJava {
         languages.add("vishwajeet");
         languages.add("Vaibhavi");
         languages.add("Sahil");
+        languages.add(1,"Shivam");
 
         System.out.println(languages);
     }
