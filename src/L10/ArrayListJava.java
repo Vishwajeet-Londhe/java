@@ -25,5 +25,9 @@ public class ArrayListJava {
 
         languages.set(2,"ketaki");
         System.out.println(languages);
+
+        //remove
+
+        System.out.println(languages.size());
     }
 }
