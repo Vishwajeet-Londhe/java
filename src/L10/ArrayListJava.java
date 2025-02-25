@@ -26,8 +26,18 @@ public class ArrayListJava {
         languages.set(2,"ketaki");
         System.out.println(languages);
 
-        //remove
+        //size & remove element from arrayList
 
         System.out.println(languages.size());
+
+        languages.remove(2);
+        System.out.println(languages);
+        System.out.println(languages.size());
+
+        //itertion
+
+        for (String language:languages){
+            System.out.println(languages);
+        }
     }
 }
