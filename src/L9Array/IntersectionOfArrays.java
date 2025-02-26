@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class IntersectionOfArrays {
     public static void main(String[] args) {
-        int [] one = {10,19,20,30,40,40,40,50};
-        int [] two = {15,16,17,20,25,30,30,40};
+        int [] one = {10,19,20,21,30,40,40,40,50};
+        int [] two = {15,16,17,20,21,25,30,30,40};
 
         System.out.println(intersection(one,two));
     }
