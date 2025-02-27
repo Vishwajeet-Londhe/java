@@ -10,5 +10,10 @@ public class TWODArray {
                 {3,4},
                 {5,6}
         };
+        System.out.println(a);
+
+        System.out.println(a[0]);
+        System.out.println(a[1]);
+        System.out.println(a[2]);
     }
 }
