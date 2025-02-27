@@ -15,5 +15,12 @@ public class TWODArray {
         System.out.println(a[0]);
         System.out.println(a[1]);
         System.out.println(a[2]);
+
+        System.out.println(a.length);//rows length
+
+        System.out.println(a[0].length);//col length
+
+        // access value
+        System.out.println(a[1][2]);
     }
 }
