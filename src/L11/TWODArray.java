@@ -61,12 +61,20 @@ public class TWODArray {
             System.out.println();
         }
 
-        // Jagged Array
+        System.out.println("-----Jagged Array--------");
 
-        int [][] arr = new int [][3];
+        int [][] arr = new int [3][];
 
         arr[0] = new int[4];
         arr[1] = new int[2];
         arr[2] = new int[5];
+
+        //calculate no of rows
+        System.out.println(arr.length);
+
+        //calculate no of cols
+        System.out.println(arr[0].length);
+        System.out.println(arr[1].length);
+        System.out.println(arr[2].length);
     }
 }
