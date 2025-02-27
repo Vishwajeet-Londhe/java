@@ -51,5 +51,14 @@ public class TWODArray {
             }
             System.out.println();
         }
+
+        //enhanced for loop
+
+        for (int [] val:a1){
+            for (int temp :val){
+                System.out.print(temp+" ");
+            }
+            System.out.println();
+        }
     }
 }
