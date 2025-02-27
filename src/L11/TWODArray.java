@@ -22,5 +22,10 @@ public class TWODArray {
 
         // access value
         System.out.println(a[1][2]);
+
+        //set and update value
+        a[2][3]= 100;
+        System.out.println(a[2][3]);
+
     }
 }
