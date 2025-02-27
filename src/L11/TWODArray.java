@@ -27,5 +27,7 @@ public class TWODArray {
         a[2][3]= 100;
         System.out.println(a[2][3]);
 
+        a[2][3] = 150;
+        System.out.println(a[2][3]); //updated the value
     }
 }
