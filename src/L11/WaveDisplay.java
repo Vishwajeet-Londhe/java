@@ -7,10 +7,10 @@ public class WaveDisplay {
                 {5,6,7,8},
                 {9,10,11,12}
         };
-        waveDiaplay(a);
+        waveDisplay(a);
     }
 
-    private static void waveDiaplay(int[][] arr) {
+    private static void waveDisplay(int[][] arr) {
         for (int c = 0; c<arr[0].length;c++){
 
             if (c%2==0){
