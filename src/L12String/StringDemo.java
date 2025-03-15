@@ -2,6 +2,8 @@ package L12String;
 
 public class StringDemo {
     public static void main(String[] args) {
-        //string demo
+        //Char demo
+        char [] name = {'v','i','s','h','w','a','j','e','e','t'};
+        System.out.println(name);
     }
 }
