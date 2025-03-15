@@ -8,5 +8,15 @@ public class StringDemo {
         // arr demo
         int[] students = {12,25,15,15,56};
         System.out.println(students.length);
+
+        // string demo
+        System.out.println("-------String-------");
+        String first = "python";
+        String second = "java";
+        String third = "CPP";
+
+        System.out.println(first);
+        System.out.println(second);
+        System.out.println(third);
     }
 }
