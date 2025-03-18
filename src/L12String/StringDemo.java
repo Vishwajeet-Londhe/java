@@ -9,16 +9,18 @@ public class StringDemo {
         int[] students = {12,25,15,15,56};
         System.out.println(students.length);
 
-        // string demo
+        // string litral
         System.out.println("-------String-------");
         String first = "python";
         String second = "java";
         String third = "CPP";
         String fourth = "35";
+        String fifth = "java";
 
         System.out.println(first);
         System.out.println(second);
         System.out.println(third);
         System.out.println(fourth);
+        System.out.println(fifth);
     }
 }
