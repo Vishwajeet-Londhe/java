@@ -49,5 +49,22 @@ public class StringDemo {
 
         boolean res2 = second.equals(fifth);
         System.out.println(res2);
+
+        //with key both work totally different
+
+        String name1 = new String("program1");
+        String name2 = new String("program1");
+
+        boolean result1 = (name1 == name2);
+        boolean result2 = name1.equals(name2);
+        System.out.println(result1+ " " + result2);
+
+        //ex
+        String n1 = new String("program 2");
+        String n2 = n1;
+
+        boolean r1 = (n1 == n2);
+        boolean r2 = n1.equals(n2);
+        System.out.println(r1+ " "+ r2);
     }
 }
