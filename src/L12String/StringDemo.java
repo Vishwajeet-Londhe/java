@@ -89,5 +89,11 @@ public class StringDemo {
 
         System.out.println(besti.charAt(besti.length()-1));
 
+        //SubString
+        System.out.println("----SubString--------");
+        System.out.println(besti.substring(1,4));
+        System.out.println(besti.substring(0,6));
+        System.out.println(besti.substring(1));
+
     }
 }
