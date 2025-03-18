@@ -42,5 +42,12 @@ public class StringDemo {
         //3. join two string
         String joinedString = first.concat(second);
         System.out.println(joinedString);
+
+        //4. compare two strings
+        boolean res1 = first.equals(second);
+        System.out.println(res1);
+
+        boolean res2 = second.equals(fifth);
+        System.out.println(res2);
     }
 }
