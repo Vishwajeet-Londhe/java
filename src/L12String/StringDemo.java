@@ -79,5 +79,15 @@ public class StringDemo {
         example1 = example1.concat(" world");
         System.out.println(example1);
 
+        //To access particular element
+
+        String besti = "Hemali";
+        char ele = besti.charAt(0);
+        System.out.println(ele);
+
+        System.out.println(besti.charAt(1));
+
+        System.out.println(besti.charAt(besti.length()-1));
+
     }
 }
