@@ -72,5 +72,12 @@ public class StringDemo {
         String imp = "this is a \"very\" imp project";
         System.out.println(imp);
 
+        //string are immutable
+
+        String example1 = "hello";
+
+        example1 = example1.concat(" world");
+        System.out.println(example1);
+
     }
 }
