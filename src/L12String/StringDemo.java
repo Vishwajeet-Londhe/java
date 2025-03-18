@@ -14,9 +14,11 @@ public class StringDemo {
         String first = "python";
         String second = "java";
         String third = "CPP";
+        String fourth = "35";
 
         System.out.println(first);
         System.out.println(second);
         System.out.println(third);
+        System.out.println(fourth);
     }
 }
