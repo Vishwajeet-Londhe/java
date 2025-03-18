@@ -22,5 +22,11 @@ public class StringDemo {
         System.out.println(third);
         System.out.println(fourth);
         System.out.println(fifth);
+
+        //String using new keyword
+        // syntax: String StringName = new String("String_Value")
+        System.out.println("----using key--------");
+        String courseName = new String("AlgoCamp");
+        System.out.println(courseName);
     }
 }
