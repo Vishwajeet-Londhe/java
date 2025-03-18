@@ -28,5 +28,15 @@ public class StringDemo {
         System.out.println("----using key--------");
         String courseName = new String("AlgoCamp");
         System.out.println(courseName);
+
+        System.out.println("-----StringOperation-------");
+        //String Operations
+
+        //1. Create String
+        String greet = "Hello World";
+        System.out.println("String:" + greet);
+
+        //2. length of String
+        System.out.println(greet.length());
     }
 }
