@@ -38,5 +38,9 @@ public class StringDemo {
 
         //2. length of String
         System.out.println(greet.length());
+
+        //3. join two string
+        String joinedString = first.concat(second);
+        System.out.println(joinedString);
     }
 }
