@@ -66,5 +66,11 @@ public class StringDemo {
         boolean r1 = (n1 == n2);
         boolean r2 = n1.equals(n2);
         System.out.println(r1+ " "+ r2);
+
+        //this is a "very" important project
+
+        String imp = "this is a \"very\" imp project";
+        System.out.println(imp);
+
     }
 }
