@@ -1,6 +1,6 @@
 package Leetcode;
 
-public class isPalindrome {
+public class isPalindrome9 {
     public static void main (String[] args){
         System.out.println(isPalindrome(156));
     }
