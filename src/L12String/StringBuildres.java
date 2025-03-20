@@ -23,6 +23,12 @@ public class StringBuildres {
         sb1.insert(sb1.length()," who are u");
         System.out.println(sb1);
 
+        //setCharAt()
+        //before that insert in sb
+        sb.insert(0,'c');
+        System.out.println(sb);
 
+        sb.setCharAt(2,'M');
+        System.out.println(sb);
     }
 }
