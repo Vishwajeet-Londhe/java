@@ -30,5 +30,8 @@ public class StringBuildres {
 
         sb.setCharAt(2,'M');
         System.out.println(sb);
+
+        //way to convert stringbuilder to sting
+        String str1 = sb.toString();
     }
 }
