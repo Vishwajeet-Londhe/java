@@ -5,7 +5,7 @@ public class StringBuildres {
 
         String str = "Hello";
 
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder("abc");
         StringBuilder sb1 = new StringBuilder(str);
 
         //length of string
@@ -14,5 +14,15 @@ public class StringBuildres {
 
         System.out.println(sb1);
         System.out.println(sb1.length());
+
+        //append
+
+        sb1.insert(0,"vaibhavi ");
+        System.out.println(sb1);
+
+        sb1.insert(sb1.length()," who are u");
+        System.out.println(sb1);
+
+
     }
 }
