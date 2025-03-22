@@ -3,6 +3,7 @@ package L12String;
 public class ReplaceAscii {
     public static void main(String[] args) {
         System.out.println(ReplaceAsciiFunction("cdEFG"));
+        System.out.println(ReplaceAsciiFunction("dd"));
     }
 
     public static String ReplaceAsciiFunction(String str){
