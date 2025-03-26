@@ -10,6 +10,9 @@ public class UserInput {
         int num = input.nextInt();
         System.out.println("You Entered:" + num);
 
+        System.out.println("Enter Text:");
+        String mystring = input.next();
+        System.out.println("You Entered:" + mystring);
 
         input.close();
     }
