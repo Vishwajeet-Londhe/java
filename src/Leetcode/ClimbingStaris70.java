@@ -2,7 +2,7 @@ package Leetcode;
 
 public class ClimbingStaris70 {
     public static void main(String[] args) {
-        System.out.println(climbStairs(5));
+        System.out.println(climbStairs(8));
     }
     public static int climbStairs(int n) {
         if(n<=3){
