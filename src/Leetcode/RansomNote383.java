@@ -4,7 +4,16 @@ public class RansomNote383 {
     public static void main(String[] args) {
         String ransomeNote = "aa";
         String magazine = "b";
+
+        String ransomeNote1 = "aa";
+        String magazine1 = "ab";
+
+        String ransomeNote2 = "aa";
+        String magazine2 = "aab";
+
         System.out.println(canConstruct(ransomeNote,magazine));
+        System.out.println(canConstruct(ransomeNote1,magazine1));
+        System.out.println(canConstruct(ransomeNote2,magazine2));
     }
 
     public static boolean canConstruct(String ransomNote, String magazine) {
