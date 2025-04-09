@@ -11,9 +11,14 @@ public class RansomNote383 {
         String ransomeNote2 = "aa";
         String magazine2 = "aab";
 
+        String ransomeNote3 = "abcdef";
+        String magazine3 = "aabbccddeeff";
+
+
         System.out.println(canConstruct(ransomeNote,magazine));
         System.out.println(canConstruct(ransomeNote1,magazine1));
         System.out.println(canConstruct(ransomeNote2,magazine2));
+        System.out.println(canConstruct(ransomeNote3,magazine3));
     }
 
     public static boolean canConstruct(String ransomNote, String magazine) {
