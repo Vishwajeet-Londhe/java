@@ -3,7 +3,12 @@ package Leetcode;
 public class HIndex274 {
     public static void main(String[] args) {
         int[] citations = {3,0,6,1,5};
+        int[] citations1 = {1,3,1};
+        int[] citations2 = {3,0,6,7,8,5};
+
         System.out.println(hIndex(citations));
+        System.out.println(hIndex(citations1));
+        System.out.println(hIndex(citations2));
     }
 
     public static int hIndex(int[] citations) {
