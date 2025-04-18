@@ -5,7 +5,12 @@ public class countnoofvowel2586 {
         String[] words = {"are","amy","u"};
         int left = 0;
         int right = 2;
+
+        String[] words1 = {"hey","aeo","mu","ooo","artro"};
+        int left1 = 1;
+        int right1 = 4;
         System.out.println(vowelStrings(words,left,right));
+        System.out.println(vowelStrings(words1,left1,right1));
     }
 
     public static int vowelStrings(String[] words, int left, int right) {
