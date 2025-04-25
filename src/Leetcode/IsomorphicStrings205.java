@@ -5,7 +5,15 @@ public class IsomorphicStrings205 {
         String s = "egg";
         String t = "add";
 
+        String s1 = "foo";
+        String t1 = "bar";
+
+        String s2 = "paper";
+        String t2 = "title";
+
         System.out.println(isIsomorphic(s,t));
+        System.out.println(isIsomorphic(s1,t1));
+        System.out.println(isIsomorphic(s2,t2));
     }
 
     public static boolean isIsomorphic(String s, String t) {
