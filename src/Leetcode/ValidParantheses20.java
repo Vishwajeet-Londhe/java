@@ -6,11 +6,13 @@ public class ValidParantheses20 {
         String s1= "()[]{}";
         String s2=  "(]";
         String s3 = "([])";
+        String s4 = "([)";
 
         System.out.println(isValid(s));
         System.out.println(isValid(s1));
         System.out.println(isValid(s2));
         System.out.println(isValid(s3));
+        System.out.println(isValid(s4));
     }
     public static boolean isValid(String s) {
 
