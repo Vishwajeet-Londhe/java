@@ -3,6 +3,10 @@ package Leetcode;
 public class IntToRoman12 {
     public static void main(String[] args) {
         System.out.println(intToRoman(253));
+        System.out.println(intToRoman(25));
+        System.out.println(intToRoman(53));
+        System.out.println(intToRoman(13));
+
     }
     public static String intToRoman(int num) {
         StringBuilder roman = new StringBuilder();
