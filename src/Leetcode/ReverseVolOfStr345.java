@@ -3,7 +3,10 @@ package Leetcode;
 public class ReverseVolOfStr345 {
     public static void main(String[] args) {
         String s = "IceCreAm";
+        String s1 = "leetcode";
+
         System.out.println(reverseVowels(s));
+        System.out.println(reverseVowels(s1));
     }
     public static String reverseVowels(String s) {
 
