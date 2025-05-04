@@ -4,7 +4,12 @@ public class ValidAnagram242 {
     public static void main(String[] args) {
         String s = "anagram";
         String t = "nagaram";
+
+        String s1 = "car";
+        String t1 = "rat";
+
         System.out.println(isAnagram(s,t));
+        System.out.println(isAnagram(s1,t1));
     }
 
     public static boolean isAnagram(String s, String t) {
