@@ -3,6 +3,8 @@ package Leetcode;
 public class FirstUniCharInStr387 {
     public static void main(String[] args) {
         System.out.println(firstUniqChar("leetcode"));
+        System.out.println(firstUniqChar("loveleetcode"));
+        System.out.println(firstUniqChar( "aabb"));
     }
     public static int firstUniqChar(String s) {
 
