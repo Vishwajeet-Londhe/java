@@ -5,7 +5,11 @@ public class AddBinary67 {
         String a = "11";
         String b = "1";
 
+        String a1 = "1010";
+        String b1 = "1011";
+
         System.out.println(addBinary(a,b));
+        System.out.println(addBinary(a1,b1));
     }
     public static String addBinary(String a, String b) {
 
