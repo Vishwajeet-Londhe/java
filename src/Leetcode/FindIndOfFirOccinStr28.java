@@ -1,10 +1,16 @@
 package Leetcode;
 
-public class FirstIndOfFirOccinStr28 {
+public class FindIndOfFirOccinStr28 {
     public static void main(String[] args) {
         String haystack =  "sadbutsad";
         String needle = "sad";
+
+        String haystack1 = "leetcode";
+        String needle1= "leeto";
+
+
         System.out.println(strStr(haystack,needle));
+        System.out.println(strStr(haystack1,needle1));
     }
     public static int strStr(String haystack, String needle) {
 
